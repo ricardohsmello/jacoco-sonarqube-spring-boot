@@ -21,7 +21,8 @@ git clone https://github.com/ricardohsmello/jacoco-sonarqube-spring-boot.git
 ```
 ## Running sonarqube
 
-Now, we need to up our **sonarqube** container. For this, if you don't have an instance running, you can use this to up by using a docker-compose file. On jacoco-sonarqube-spring-boot directory, run;
+Inside jacoco-sonarqube-spring-boot directory, run:
+
 ```
 docker-compose up -d
 ```
