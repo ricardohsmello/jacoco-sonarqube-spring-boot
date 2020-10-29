@@ -11,6 +11,7 @@ A simple test application with sonar+jacoco+spring-boot
 # Prerequisites
  - Docker-Compose
  - JVM 11 
+ - Maven
  
  # Usage
 ## Cloning the repo
