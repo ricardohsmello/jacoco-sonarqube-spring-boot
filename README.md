@@ -24,14 +24,11 @@ $ git clone https://github.com/ricardohsmello/jacoco-sonarqube-spring-boot.git
 ```
 $ cd jacoco-sonarqube-spring-boot
 $ docker-compose up -d
+$ mvn sonar:sonar -Dsonar.projectKey=br.com.ricas:jacoco-sonarqube-spring-boot -Dsonar.host.url=http://localhost:7000
 ```
 
 If everything its correct, the sonar will be available on: 
-```
-$ mvn sonar:sonar -Dsonar.projectKey=br.com.ricas:jacoco-sonarqube-spring-boot -Dsonar.host.url=http://localhost:7000
 
-```
-On Browser
 ```
 http://localhost:7000/
 ```
