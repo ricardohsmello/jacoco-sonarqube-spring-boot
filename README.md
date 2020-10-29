@@ -17,7 +17,7 @@ A simple test application with sonar+jacoco+spring-boot
 
 First of all we need clone the repo:
 ```
-git clone https://github.com/ricardohsmello/magalu-schedule.git
+git clone https://github.com/ricardohsmello/jacoco-sonarqube-spring-boot.git
 ```
 ## Running sonarqube
 
