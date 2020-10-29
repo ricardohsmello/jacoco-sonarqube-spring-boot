@@ -38,4 +38,13 @@ http://localhost:7000/
 
 ![Sonarqube](https://s1.imghub.io/9GHhS.png)
 
+## Running jacoco
 
+```
+$ mvn clean test
+$ cd jacoco-sonarqube-spring-boot/target/site/jacoco
+
+```
+
+Inside
+![Jacoco](https://s1.imghub.io/9G6s5.png)
