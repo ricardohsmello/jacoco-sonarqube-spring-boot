@@ -44,5 +44,4 @@ $ cd jacoco-sonarqube-spring-boot/target/site/jacoco
 
 ```
 
-Inside
 ![Jacoco](https://s1.imghub.io/9G6s5.png)
