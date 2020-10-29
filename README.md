@@ -17,14 +17,13 @@ A simple test application with sonar+jacoco+spring-boot
 
 First of all we need clone the repo:
 ```
-git clone https://github.com/ricardohsmello/jacoco-sonarqube-spring-boot.git
+$ git clone https://github.com/ricardohsmello/jacoco-sonarqube-spring-boot.git
 ```
-## Running sonarqube
-
-Inside jacoco-sonarqube-spring-boot directory, run:
+## Running sonarqube 
 
 ```
-docker-compose up -d
+$ cd jacoco-sonarqube-spring-boot
+$ docker-compose up -d
 ```
 
 If everything its correct, the sonar will be available on: 
