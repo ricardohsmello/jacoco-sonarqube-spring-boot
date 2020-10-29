@@ -28,11 +28,10 @@ $ docker-compose up -d
 
 If everything its correct, the sonar will be available on: 
 ```
-http://localhost:7000/
-```
+$ mvn sonar:sonar -Dsonar.projectKey=br.com.ricas:jacoco-sonarqube-spring-boot -Dsonar.host.url=http://localhost:7000
 
- mvn sonar:sonar -Dsonar.projectKey=br.com.ricas:ricas-financas -Dsonar.host.url=http://localhost:7000
-Type the follow URL on browser
 ```
-http://localhost:8080/
+On Browser
+```
+http://localhost:7000/
 ```
