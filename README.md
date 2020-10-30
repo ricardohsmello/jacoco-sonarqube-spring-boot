@@ -25,9 +25,11 @@ $ git clone https://github.com/ricardohsmello/jacoco-sonarqube-spring-boot.git
 ```
 $ cd jacoco-sonarqube-spring-boot
 $ docker-compose up -d
+```
 
-CHECK IF SONAR IS UP AND;
+Check if sonar is up on localhost:7000 and run:
 
+```
 $ mvn sonar:sonar -Dsonar.projectKey=br.com.ricas:jacoco-sonarqube-spring-boot -Dsonar.host.url=http://localhost:7000
 ```
 
