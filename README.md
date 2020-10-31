@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ricardohsmello/jacoco-sonarqube-spring-boot.svg?branch=main)](https://travis-ci.org/ricardohsmello/jacoco-sonarqube-spring-boot)
+
 # jacoco-sonarqube-spring-boot
 A simple test application with sonar+jacoco+spring-boot
 
